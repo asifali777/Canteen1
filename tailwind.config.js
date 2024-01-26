@@ -5,9 +5,9 @@ module.exports = {
     extend: {
       fontFamily:{
         Poppins:["Poppins","sans-serif"],
-      }
+      },
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-neumorphism')],
 }
 
