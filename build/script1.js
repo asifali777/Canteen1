@@ -441,4 +441,7 @@ function updateCartPriceF() {
 function finalPrice() {
   document.getElementById("cartPrice").innerHTML = updateCartPriceF();
   return finalPrice;
-}
+};
+document.getElementById("button").addEventListener("click",()=>{
+ alert("🔧🚨 MAINTENANCE BREAK ALERT! 🚨🔧We can't take your orders right now ,stay tuned for further updates 🛠️🔩 It's that time again when our servers need a little TLC. 🤖💤")
+})
