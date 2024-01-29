@@ -443,5 +443,5 @@ function finalPrice() {
   return finalPrice;
 };
 document.getElementById("button").addEventListener("click",()=>{
- alert("🔧🚨 MAINTENANCE BREAK ALERT! 🚨🔧We can't take your orders right now ,stay tuned for further updates 🛠️🔩 It's that time again when our servers need a little TLC. 🤖💤")
+ alert("🔧🚨 MAINTENANCE BREAK ALERT! 🚨🔧We know that you are hungery but, We can't take your orders right now 😔,stay tuned for further updates 🛠️🔩 It's that time again when our servers need a little TLC. 🤖💤")
 })
