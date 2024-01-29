@@ -1,0 +1,468 @@
+<!-- shanghai_Fried_Rice_Item1  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body class="bg-[#F2F2F2]">
+   <!-- top section goes here -->
+   <div
+   id="top"
+   class="flex gap-3 bg-[#FFC844] pt-12 pb-2 px-5 justify-between"
+ >
+ <div class=" flex gap-3">
+  <div class="mt-0">
+    <i class=" fa-solid fa-location-dot fa-2x"></i>
+  </div>
+  <div class="">
+    <h1 class=" font-bold capitalize text-xl font-Poppins">fbLite </h1>
+    <p id="location" class=" text-xs capitalize">
+     japanese edition
+    </p>
+  </div>
+ </div>
+   <div class="">
+     <img
+       class="w-12 h-12 rounded-full"
+       src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D"
+       alt=""
+     /> 
+   </div>
+</div>  
+
+      <!-- banner  -->
+      <div id="banner" class=" bg-white px-5 pt-5 pb-4">
+        <div class="">
+          <img id="images" class="mx-auto w-80 h-80" src="./photos/shanghai/Food1.png" alt="" />
+        </div>
+  
+        <div class="flex gap-2 justify-between mt-5">
+          <div>
+            <p id="seasonalPrawns" class="font-bold text-[13px] tracking-tight ">
+              Shanghai Fried Rice with seasonal Prawns
+            </p>
+          </div>
+          <div id="signature" class="hidden">
+            <button
+              class="align-top rounded-full py-1 bg-[#FFC844] px-5 text-[9px] font-bold"
+            >
+              <i class="fa-solid fa-check-double"></i>Singature
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="banner1" class=" bg-[#FEF0F9] w-screen h-44 py-4 px-5">
+        <div
+          class="flex gap-5 bg-white w-[100%] h-[100%] px-1 rounded-md shadow-md"
+        >
+          <div class="flex align-middle w-[50%]">
+            <img class="w-30 object-contain" src="./photos/food2-preview.png" alt="" />
+          </div>
+          <div class="my-auto pr-7">
+            <p>
+              <span
+                class="font-extrabold text-xs bg-[#FFC844] px-2 py-1 rounded-sm"
+                >ADD-ONs</span
+              >
+              <span class="tracking-tighter text-[11px] font-bold text-[#6E6E6E]">
+            &#8377;;1.00 for each</span
+              >
+            </p>
+            <p class="mt-1 uppercase font-bold text-2xl font-Poppins">tobiko</p>
+            <p class="text-[10px] text-[#6E6E6E] font-Poppins">
+              Loaded with protein, vitamins & omega-3 fatty acids
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="addOns" class="">
+        <!-- addOns heading section goes here -->
+        <div class="px-5 bg-white">
+        <div
+          class="flex justify-between pt-5 pb-2 bg-white border-b-[3px] border-[#6E6E6E]"
+        >
+          <div>
+            <p class="font-bold font-Poppins">Add-Ons</p>
+            <p class="text-[#6E6E6E] text-[10px]">select up to 4</p>
+          </div>
+  
+          <div>
+            <button
+              id="optional"
+              class="bg-[#FFEEC7] px-5 py-1 rounded-full font-bold text-[#6E6E6E] text-xs hover:bg-[#fee9b6]"
+            >
+              Optional
+            </button>
+          </div>
+        </div>
+      </div>
+        <!-- addOns item section goes here -->
+        <!-- item 1 -->
+        <div class="flex justify-between px-5 pt-5 bg-white">
+          <div class="flex my-auto w-">
+            <input id="item1" class="w-6" type="radio" />
+            <p class="font-Poppins font-medium ml-1 text-xs">
+              Add 1 Egg (Stir-Fried in)
+            </p>
+          </div>
+          <div class="flex">
+            <p class="font-Poppins  text-xl">
+              &#8377;<span id="price1">0.50</span> <span id="minus1" class="ml-3 font-extrabold cursor-pointer">-</span>
+              <span id="num1" class="px-3 rounded-md nm-concave-white-sm">0</span>
+              <span id="plus1" class="font-extrabold cursor-pointer">+</span>
+            </p>
+          </div>
+        </div>
+        <!-- item2 -->
+        <div class="flex justify-between px-5 pt-5 bg-white">
+          <div class="flex my-auto">
+            <input id="item2" class="w-6" type="radio" />
+            <p class="font-Poppins font-medium ml-1 text-xs">Tobiko</p>
+          </div>
+          <div class="flex">
+            <p class="font-Poppins text-xl">
+              &#8377;<span id="price2">1</span> <span id="minus2" class="ml-3 font-extrabold cursor-pointer">-</span>
+              <span id="num2" class="px-3 rounded-md nm-concave-white-sm">0</span>
+              <span id="plus2" class="font-extrabold cursor-pointer">+</span>
+            </p>
+          </div>
+        </div>
+        <!-- item3 -->
+        <div class="flex justify-between px-5 pt-5 bg-white">
+          <div class="flex my-auto">
+            <input id="item3" class="w-6" type="radio" />
+            <p class="font-Poppins font-medium ml-1 text-xs">Sous Vide Egg</p>
+          </div>
+          <div class="flex">
+            <p class="font-Poppins   text-xl">
+              &#8377;<span id="price3">1</span> <span id="minus3" class="ml-3 font-extrabold">-</span>
+              <span id="num3" class="px-3 rounded-md nm-concave-white-sm">0</span>
+              <span id="plus3" class="font-extrabold">+</span>
+            </p>
+          </div>
+        </div>
+        <!-- item4 -->
+        <div class="flex justify-between px-5 pt-5 bg-white">
+          <div class="flex my-auto">
+            <input id="item4" class="w-6" type="radio" />
+            <p class="font-Poppins font-medium ml-1 text-xs">
+              Chicken Chinese Sausage
+            </p>
+          </div>
+          <div class="flex">
+            <p class="font-Poppins  text-xl">
+              &#8377;<span id="price4">1</span> <span id="minus4" class="ml-3 font-extrabold">-</span>
+              <span id="num4" class="px-3 rounded-md nm-concave-white-sm">0</span>
+              <span id="plus4" class="font-extrabold">+</span>
+            </p>
+          </div>
+        </div>
+        <!-- item5 -->
+        <div class="flex justify-between px-5 pt-5 bg-white">
+          <div class="flex my-auto">
+            <input id="item5" class="w-6" type="radio" />
+            <p class="font-Poppins font-medium ml-1 text-xs">Asparagus</p>
+          </div>
+          <div class="flex">
+            <p class="font-Poppins  text-xl">
+              &#8377;<span id="price5">1</span> <span id="minus5" class="ml-3 font-extrabold">-</span>
+              <span id="num5" class="px-3 rounded-md nm-concave-white-sm">0</span>
+              <span id="plus5" class="font-extrabold">+</span>
+            </p>
+          </div>
+        </div>
+        <!-- item6 -->
+        <div class="flex justify-between px-5 pt-5 bg-white">
+          <div class="flex my-auto">
+            <input id="item6" class="w-6" type="radio" />
+            <p class="font-Poppins font-medium ml-1 text-xs">Broccoil</p>
+          </div>
+          <div class="flex">
+            <p class="font-Poppins  text-xl">
+              &#8377;<span id="price6">1</span> <span id="minus6" class="ml-3 font-extrabold">-</span>
+              <span id="num6" class="px-3 rounded-md nm-concave-white-sm">0</span>
+              <span id="plus6" class="font-extrabold">+</span>
+            </p>
+          </div>
+        </div>
+        <!-- item7 -->
+        <div class="flex justify-between px-5 pt-5 bg-white">
+          <div class="flex my-auto">
+            <input id="item7" class="w-6" type="radio" />
+            <p class="font-Poppins font-medium ml-1 text-xs">Capsicum</p>
+          </div>
+          <div class="flex">
+            <p class="font-Poppins  text-xl">
+              &#8377;<span id="price7">1</span> <span id="minus7" class="ml-3 font-extrabold">-</span>
+              <span id="num7" class="px-3 rounded-md nm-concave-white-sm">0</span>
+              <span id="plus7" class="font-extrabold">+</span>
+            </p>
+          </div>
+        </div>
+        <!-- item8 -->
+        <div class="flex justify-between px-5 pt-5 bg-white">
+          <div class="flex my-auto">
+            <input id="item8" class="w-6" type="radio" />
+            <p class="font-Poppins font-medium ml-1 text-xs">Nai Bai</p>
+          </div>
+          <div class="flex">
+            <p class="font-Poppins  text-xl">
+              &#8377;<span id="price8">1</span> <span id="minus8" class="ml-3 font-extrabold">-</span>
+              <span id="num8" class="px-3 rounded-md nm-concave-white-sm">0</span>
+              <span id="plus8" class="font-extrabold">+</span>
+            </p>
+          </div>
+        </div>
+  
+        <!-- item9 -->
+        <div class="flex justify-between px-5 pt-5 bg-white">
+          <div class="flex my-auto">
+            <input id="item9" class="w-6" type="radio" />
+            <p class="font-Poppins font-medium ml-1 text-xs">Shimeji Mushroom</p>
+          </div>
+          <div class="flex">
+            <p class="font-Poppins  text-xl">
+              &#8377;<span id="price9">1</span> <span id="minus9" class="ml-3 font-extrabold">-</span>
+              <span id="num9" class="px-3 rounded-md nm-concave-white-sm">0</span>
+              <span id="plus9" class="font-extrabold">+</span>
+            </p>
+          </div>
+        </div>
+  
+        <!-- item10 -->
+        <div class="flex justify-between px-5 pt-5 bg-white">
+          <div class="flex my-auto">
+            <input id="item10" class="w-6" type="radio" />
+            <p class="font-Poppins font-medium ml-1 text-xs">Shiitake Mushroom</p>
+          </div>
+          <div class="flex">
+            <p class="font-Poppins  text-xl">
+              &#8377;<span id="price10">1</span> <span id="minus10" class="ml-3 font-extrabold">-</span>
+              <span id="num10" class="px-3 rounded-md nm-concave-white-sm">0</span>
+              <span id="plus10" class="font-extrabold">+</span>
+            </p>
+          </div>
+        </div>
+  
+        <!-- item11 -->
+        <div class="flex justify-between px-5 pt-5 bg-white">
+          <div class="flex my-auto">
+            <input id="item11" class="w-6" type="radio" />
+            <p class="font-Poppins font-medium ml-1 text-xs">Grilled Chicken</p>
+          </div>
+          <div class="flex">
+            <p class="font-Poppins text-xl">
+              &#8377;<span id="price11">2</span> <span id="minus11" class="ml-3 font-extrabold">-</span>
+              <span id="num11" class="px-3 rounded-md nm-concave-white-sm">0</span>
+              <span id="plus11" class="font-extrabold">+</span>
+            </p>
+          </div>
+        </div>
+  
+        <!-- item12 -->
+        <div class="flex justify-between px-5 pt-5 bg-white">
+          <div class="flex my-auto">
+            <input id="item12" class="w-6" type="radio" />
+            <p class="font-Poppins font-medium ml-1 text-xs">Braised Beef</p>
+          </div>
+          <div class="flex">
+            <p class="font-Poppins  text-xl">
+              &#8377;<span id="price12">3</span> <span id="minus12" class="ml-3 font-extrabold">-</span>
+              <span id="num12" class="px-3 rounded-md nm-concave-white-sm">0</span>
+              <span id="plus12" class="font-extrabold">+</span>
+            </p>
+          </div>
+        </div>
+  
+        <!-- item13 -->
+        <div class="flex pb-5 justify-between px-5 pt-5 bg-white">
+          <div class="flex my-auto">
+            <input id="item13" class="w-6" type="radio" />
+            <p class="font-Poppins font-medium ml-1 text-xs">Seasoned Prawns</p>
+          </div>
+          <div class="flex">
+            <p class="font-Poppins text-xl">
+              &#8377;<span id="price13">3</span> <span id="minus13" class="ml-3 font-extrabold">-</span>
+              <span id="num13" class="px-3 rounded-md nm-concave-white-sm">0</span>
+              <span id="plus13" class="font-extrabold">+</span>
+            </p>
+          </div>
+        </div>
+        <!-- more item goes here -->
+      </div>
+      <div id="richAltenative" class="">
+        <div class="px-5 bg-white">
+        <div
+          class="flex justify-between pt-5 mt-5 pb-2 bg-white border-b-[3px] border-[#6E6E6E]"
+        >
+          <div>
+            <p class="font-bold font-Poppins">Rich Alternative</p>
+            <p class="text-[#6E6E6E] text-[10px]">
+              Default:Premium Japaneses Rice
+            </p>
+          </div>
+  
+          <div>
+            <button
+              id="optional"
+              class="bg-[#FFEEC7] px-5 py-1 rounded-full font-bold text-[#6E6E6E] text-xs hover:bg-[#fee9b6]"
+            >
+              Optional
+            </button>
+          </div>
+        </div>
+      </div>
+  <fieldset class="bg-white px-5">
+    <div class="pt-5 flex">
+      <input class=" h-4 w-4" type="radio" id="huey" name="drone" value="huey" checked />
+      <label class="font-Poppins font-medium ml-1 text-xs" for="">Premium Japanese Rice (Default)</label>
+    </div>
+  
+    <div class="pt-5 flex">
+      <input class=" h-4 w-4" type="radio" id="dewey" name="drone" value="dewey" />
+      <label class=" font-Poppins font-medium ml-1 text-xs" for=""> Premium Brown Rice</label>
+    </div>
+  
+    <div class="pt-5 pb-5 flex">
+      <input class=" h-4 w-4" type="radio" id="louie" name="drone" value="louie" />
+      <label class="font-Poppins font-medium ml-1 text-xs" for="">Cauliflower Rice (In-store)</label>
+    </div>
+  </fieldset>
+        <!-- more item goes here  -->
+      </div>
+      <div id="Wok-Hey" class="">
+        <div class="px-5 bg-white">
+        <div
+          class="flex justify-between pt-5 mt-5 pb-2 bg-white border-b-[3px] border-[#6E6E6E]"
+        >
+          <div>
+            <p class="font-bold font-Poppins">WOK HEY's Chilli</p>
+            <p class="text-[#6E6E6E] text-[10px]">Default: No Chilli</p>
+          </div>
+  
+          <div>
+            <button
+              id="optional"
+              class="bg-[#FFEEC7] px-5 py-1 rounded-full font-bold text-[#6E6E6E] text-xs hover:bg-[#fee9b6]"
+            >
+              Optional
+            </button>
+          </div>
+        </div>
+      </div>
+      <fieldset class="bg-white px-5">
+        <div class="pt-5 flex">
+          <input class=" h-4 w-4" type="radio" id="No" name="xyz" value="No" checked />
+          <label class="font-Poppins font-medium ml-1 text-xs" for="">No Chilli (Default)</label>
+        </div>
+      
+        <div class="pt-5 pb-5 flex">
+          <input class=" h-4 w-4" type="radio" id="With" name="xyz" value=" With" />
+          <label class=" font-Poppins font-medium ml-1 text-xs" for=""> With Chilli</label>
+        </div>
+      </fieldset>
+      </div>
+      <div id="Special-req" class="">
+        <div class="px-5 bg-white">
+        <div
+          class="flex justify-between pt-5 mt-5 pb-2 bg-white border-b-[3px] border-[#6E6E6E]"
+        >
+          <div>
+            <p class="font-bold font-Poppins">Special Request</p>
+          </div>
+  
+          <div>
+            <button
+              id="optional"
+              class="bg-[#FFEEC7] px-5 py-1 rounded-full font-bold text-[#6E6E6E] text-xs hover:bg-[#fee9b6]"
+            >
+              Optional
+            </button>
+          </div>
+        </div>
+      </div>
+  <fieldset class="px-5 bg-white">
+          <!-- item1  -->
+          <div class="flex justify-between pt-5 bg-white">
+            <div class="flex my-auto">
+              <input class="w-5" type="radio" />
+              <p class="font-Poppins font-medium ml-1 text-xs">More Chilli</p>
+            </div>
+          </div>
+    
+          <!-- item2  -->
+          <div class="flex justify-between pt-5 bg-white">
+            <div class="flex my-auto">
+              <input class="w-5" type="radio" />
+              <p class="font-Poppins font-medium ml-1 text-xs">
+                Chilli (Stir-Fried in)
+              </p>
+            </div>
+          </div>
+          <!-- item3  -->
+          <div class="flex justify-between pt-5 bg-white">
+            <div class="flex my-auto">
+              <input class="w-5" type="radio" />
+              <p class="font-Poppins font-medium ml-1 text-xs">No Spring Onion</p>
+            </div>
+          </div>
+          <!-- item 4  -->
+          <div class="flex justify-between pt-5 bg-white">
+            <div class="flex my-auto">
+              <input class="w-5" type="radio" />
+              <p class="font-Poppins font-medium ml-1 text-xs">Less Oil</p>
+            </div>
+          </div>
+  </fieldset>
+        <!-- item 5  -->
+  <fieldset class=" bg-white px-5 pb-5">
+    <div class="pt-5 flex">
+      <input class=" h-4 w-4" type="radio" name="abc" value="less salt" id="abc">
+      <label class="font-Poppins font-medium ml-1 text-xs" for="">Less Sali</label>
+    </div>
+    <div class="pt-5 flex">
+      <input class=" h-4 w-4"  type="radio" name="abc" value="No salt" id="abc">
+      <label class="font-Poppins font-medium ml-1 text-xs" for="">No Sali</label>
+    </div>
+  </fieldset>
+        <!-- more item goes here  -->
+      </div>
+      <div id="addToCart" class=" ">
+      <div 
+        class=" bg-white pb-12 pt-3 flex px-5 w-screen justify-between">
+        <div class="flex gap-5">
+          <span id="minusF" class="text-2xl font-extrabold">-</span>
+          <p id="numF" class="text-2xl h-9 px-3 rounded-md nm-concave-white-sm">1</p>
+          <span id="plusF" class="text-2xl font-extrabold"> +</span>
+        </div>
+        <div>
+          <button class=" px-14 rounded-xl bg-[#FFC844] hover:bg-[#f8d074]">
+            Add to cart <br />
+            &#8377;<span id="cartPrice">200</span>
+          </button>
+        </div>
+      </div>
+      </div>
+
+
+
+
+ <script src="script1.js"></script>
+</body>
+</html>
